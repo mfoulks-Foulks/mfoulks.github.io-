@@ -10,8 +10,6 @@
     --panel: rgba(255, 255, 255, 0.92);
 }
 
-/* BODY - logo background */
-
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -28,8 +26,6 @@ body {
     color: var(--text);
 }
 
-/* HEADER */
-
 header {
     background-color: black;
     border-bottom: 3px solid var(--secondary);
@@ -43,8 +39,6 @@ header h1 {
     letter-spacing: 3px;
     font-size: 2.2rem;
 }
-
-/* NAVIGATION */
 
 nav {
     background-color: #111;
@@ -76,15 +70,11 @@ nav a:hover {
     color: black;
 }
 
-/* MAIN CONTENT */
-
 main {
     max-width: 1100px;
     margin: auto;
     padding: 2rem;
 }
-
-/* HERO SECTION */
 
 .hero {
     background-image: url("hero.jpg");
@@ -99,8 +89,6 @@ main {
     justify-content: center;
     text-align: center;
 }
-
-/* HERO TEXT */
 
 .hero-text {
     text-align: center;
@@ -119,8 +107,6 @@ main {
     text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
 }
 
-/* CONTENT CARDS */
-
 .section-card {
     background: var(--panel);
     padding: 1.5rem;
@@ -138,8 +124,6 @@ main {
     color: black;
 }
 
-/* ABOUT PAGE IMAGE */
-
 .image-full {
     width: 100%;
     max-width: 650px;
@@ -148,15 +132,21 @@ main {
     border-radius: 6px;
 }
 
-/* GRID LAYOUT */
+.home-video {
+    width: 100%;
+    max-width: 380px;
+    height: 220;
+    object-fit: cover;
+    display: block;
+    margin: 0.5rem auto;
+    border-radius: 6px;
+}
 
 .grid-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
 }
-
-/* TABLE */
 
 table {
     width: 100%;
@@ -167,15 +157,13 @@ table {
 th,
 td {
     border: 1px solid #ddd;
-    padding: .75rem;
+    padding: 0.1rem;
 }
 
 th {
     background: var(--secondary);
     color: black;
 }
-
-/* GALLERY */
 
 .gallery-grid {
     display: grid;
@@ -190,14 +178,10 @@ th {
     border-radius: 6px;
 }
 
-/* FIX FOR GALLERY3 IMAGE (LOWERED SO FACE IS VISIBLE) */
-
 .gallery3-fix {
     object-fit: cover;
     object-position: center 95%;
 }
-
-/* FORM */
 
 form {
     background: rgba(255,255,255,0.95);
@@ -236,8 +220,6 @@ button:hover {
     color: white;
 }
 
-/* FOOTER */
-
 footer {
     background: black;
     color: white;
@@ -249,8 +231,6 @@ footer {
 footer a {
     color: var(--secondary);
 }
-
-/* MOBILE */
 
 @media (max-width: 768px) {
 
